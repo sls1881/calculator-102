@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Caluculator</title>
+</head>
+
+<body>
+    <header>
+        <div class="gutter-right logo">
+            <img src="assets/big-logo.png" />
+        </div>
+    </header>
+    <section>
+        <section class="main-section">
+            <img class="main-logo" src="assets/alchemy-logo.png" />
+            <h1 id='title'>Calculator JS Project</h1>
+            <section class='addition'>
+                <input id='add-input-1' type='number' />
+                <div>+</div>
+                <input id='add-input-2' type='number' />
+                <button id='add-button'>Add me</button>
+                <div id='add-results' class = 'result-border'></div>
+            </section>
+            <section class='subtraction'>
+                <input id='subtract-input-1' type='number' />
+                <div>-</div>
+                <input id='subtract-input-2' type='number' />
+                <button id='subtract-button'>Subtract me</button>
+                <div id='subtract-results' class = 'result-border'></div>
+            </section>
+            <section class='multiplication'>
+                <input id= 'multiply-input-1' type='number' />
+                <div>*</div>
+                <input id= 'multiply-input-2' type='number' />
+                <button id= 'multiply-button'>Multiply me</button>
+                <div id='multiply-results' class = 'result-border'></div>
+            </section>
+            <section class= 'Division'>
+                <input id= 'divide-input-1' type='number' />
+                <div>/</div>
+                <input id= 'divide-input-2' type='number' />
+                <button id= 'divide-button'>Divide me</button>
+                <div id= 'divide-results' class = 'result-border'></div>
+            </section>
+
+
+            <script type="module" src="app.js"></script>
+</body>
+
+</html>
