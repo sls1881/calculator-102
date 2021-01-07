@@ -58,24 +58,52 @@ header {
 
 button {
     background-color: var(--color1);
+    border: dotted rgb(75, 69, 69) 1px;
+    border-radius: 10px;
 }
 
 input {
     background-color: var(--color3);
+    border: dotted darkgray 1px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
 }
 
 /*footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
-    box-shadow: var(--shadow); */
-}
+    box-shadow: var(--shadow); 
+}*/
 
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: bold;
     color: var(--color2);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.button-style {
+    padding-top: 10px;
+}
+
+.result-container {
+    border: dotted darkgray 1px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.result-content {
+    text-align: center;
 }
 
 .gutter-right {

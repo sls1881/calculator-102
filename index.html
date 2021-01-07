@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <title>Caluculator</title>
+    <title>Calculator</title>
 </head>
 
 <body>
@@ -22,33 +22,57 @@
         <section class="main-section">
             <img class="main-logo" src="assets/alchemy-logo.png" />
             <h1 id='title'>Calculator JS Project</h1>
+
             <section class='addition'>
+                <h2>Addition</h2>
                 <input id='add-input-1' type='number' />
                 <div>+</div>
                 <input id='add-input-2' type='number' />
-                <button id='add-button'>Add me</button>
-                <div id='add-results' class = 'result-border'></div>
+                <div class='button-style'>
+                    <button id='add-button'>Add me</button>
+                </div>
+                <div class='result-container'>
+                    <div id='add-results' class='result-content'></div>
+                </div>
             </section>
+
             <section class='subtraction'>
+                <h2>Subtraction</h2>
                 <input id='subtract-input-1' type='number' />
                 <div>-</div>
                 <input id='subtract-input-2' type='number' />
-                <button id='subtract-button'>Subtract me</button>
-                <div id='subtract-results' class = 'result-border'></div>
+                <div class='button-style'>
+                    <button id='subtract-button'>Subtract me</button>
+                </div>
+                <div class='result-container'>
+                    <div id='subtract-results' class='result-content'></div>
+                </div>
             </section>
+
             <section class='multiplication'>
-                <input id= 'multiply-input-1' type='number' />
+                <h2>Multiplication</h2>
+                <input id='multiply-input-1' type='number' />
                 <div>*</div>
-                <input id= 'multiply-input-2' type='number' />
-                <button id= 'multiply-button'>Multiply me</button>
-                <div id='multiply-results' class = 'result-border'></div>
+                <input id='multiply-input-2' type='number' />
+                <div class='button-style'>
+                    <button id='multiply-button'>Multiply me</button>
+                </div>
+                <div class='result-container'>
+                    <div id='multiply-results' class='result-content'></div>
+                </div>
             </section>
-            <section class= 'Division'>
-                <input id= 'divide-input-1' type='number' />
+
+            <section class='Division'>
+                <h2>Division</h2>
+                <input id='divide-input-1' type='number' />
                 <div>/</div>
-                <input id= 'divide-input-2' type='number' />
-                <button id= 'divide-button'>Divide me</button>
-                <div id= 'divide-results' class = 'result-border'></div>
+                <input id='divide-input-2' type='number' />
+                <div class='button-style'>
+                    <button id='divide-button'>Divide me</button>
+                </div>
+                <div class='result-container'>
+                    <div id='divide-results' class='result-content'></div>
+                </div>
             </section>
 
 
