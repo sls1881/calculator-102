@@ -45,7 +45,7 @@ test('It should return -6 when provided 6 - 12', (expect) => {
 //Multiplication tests
 test('It should return 10 when provided 2 * 5', (expect) => {
 
-    const expected = 10
+    const expected = 10;
 
     const actual = getMult(2, 5);
 
